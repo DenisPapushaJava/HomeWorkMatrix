@@ -42,8 +42,8 @@ public class Matrix {
 
     public void print() {
         if (matrix.length == 1 && matrix[0].length == 0)
-            System.out.println("Не соответствуют условиям сложения матриц");
-        else if (matrix.length == 0) System.out.println("Не соответствуют условиям умножения матриц");
+            System.out.println("Входные данные, не соответствуют условиям сложения матриц");
+        else if (matrix.length == 0) System.out.println("Входные данные не соответствуют условиям умножения матриц");
 
         else {
             System.out.println("===========================================================");
