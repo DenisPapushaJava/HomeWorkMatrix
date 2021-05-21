@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Matrix matrixFirst = new Matrix(4, 3);
-        Matrix matrixSecond = new Matrix(3, 2);
+        Matrix matrixFirst = new Matrix(3, 3);
+        Matrix matrixSecond = new Matrix(2, 3);
 
         matrixFirst.fillMatrix();
         matrixSecond.fillMatrix();
@@ -9,12 +9,12 @@ public class Main {
         matrixFirst.print();
         matrixSecond.print();
 
-        Matrix c = matrixFirst.sum(matrixSecond);
-        c.print();
-        c = matrixFirst.multiplyNumber(3);
-       c.print();
-        c=matrixFirst.multiplyMatrix(matrixSecond);
-        c.print();
+        Matrix result = matrixFirst.sum(matrixSecond);
+        result.print();
+        result = matrixFirst.multiplyNumber(3);
+       result.print();
+        result=matrixFirst.multiplyMatrix(matrixSecond);
+        result.print();
 
 
     }
